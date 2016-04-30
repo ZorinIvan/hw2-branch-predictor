@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="bp_api.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="bp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hw2 branch predictor.cpp">
+    <ClCompile Include="bp_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
